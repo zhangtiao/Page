@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link type="text/css" rel="stylesheet" href="css/reset.css"/>
+    <link type="text/css" rel="stylesheet" href="css/swiper.css"/>
+    <link type="text/css" rel="stylesheet" href="css/stype.css"/>
+</head>
+<body>
+<div class="shop social">
+    <h2>
+        <span><img src="image/c.gif" alt=""/></span>
+        Shop
+        <i><img src="image/g.gif" alt=""/></i>
+    </h2>
+    <div class="swiper-container swiper-o">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="shop-div">
+                    <dl>
+                        <dt><img src="image/ecommerce1_1.png" alt=""/></dt>
+                        <dd>
+                            <div>
+                                <img src="image/ecommerce1_1.png" alt=""/>
+                                <img src="image/ecommerce1_2.png" alt=""/>
+                                <img src="image/ecommerce1_3.png" alt=""/>
+                                <img src="image/ecommerce1_4.png" alt=""/>
+                            </div>
+                            coco CHANEL
+                            <h3>ElegantApron-Dress</h3>
+                            <p>Black-$95</p>
+                        </dd>
+                    </dl>
+                    <button class="shop-but">More Info</button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="shop-div">
+                    <dl>
+                        <dt><img src="image/ecommerce1_2.png" alt=""/></dt>
+                        <dd>
+                            <div>
+                                <img src="image/ecommerce1_1.png" alt=""/>
+                                <img src="image/ecommerce1_2.png" alt=""/>
+                                <img src="image/ecommerce1_3.png" alt=""/>
+                                <img src="image/ecommerce1_4.png" alt=""/>
+                            </div>
+                            coco CHANEL
+                            <h3>ElegantApron-Dress</h3>
+                            <p>Black-$95</p>
+                        </dd>
+                    </dl>
+                    <button class="shop-but">More Info</button>
+                </div>
+            </div>
+        </div>
+        <div class="home-box">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script>
+    new Swiper(".swiper-o", {
+        /* 圆点*/
+        pagination: ".home-box",
+        /*滚动方向*/
+        direction: "horizontal",
+        /*圆点可点击*/
+        paginationClickable: true,
+        /*是否手指滑动效果*/
+        touchRatio: 1
+    })
+</script>
+</body>
+</html>
